@@ -5,6 +5,50 @@
 import math
 
 
+def potencia_polar(polar1, num):
+    """potencia de un numero complejo en representación polar
+
+    :param polar1: numero complejo en representacion polar
+    :type polar1: list
+    :param num: exponente
+    :return: potencia del numero complejo
+    :rtype: list
+    """
+    potencia_complejo = [polar1[0]**num, num * polar1[1]]
+
+    return potencia_complejo
+
+
+def division_polar(polar1, polar2):
+    """division de dos numeros complejos en representacion polar
+
+        :param polar1: numero complejo en representacion polar
+        :type polar1: list
+        :param polar2: numero complejo en representacion polar
+        :type polar2: list
+        :return: division entre los numeros complejos en representación polar
+        :rtype: list
+        """
+    complejo_polar = [polar1[0] / polar2[0], porlar1[1] - polar2[1]]
+
+    return complejo_polar
+
+
+def multiplicacion_polar(polar1, polar2):
+    """multiplicación de dos numeros complejos en representacion polar
+
+    :param polar1: numero complejo en representacion polar
+    :type polar1: list
+    :param polar2: numero complejo en representacion polar
+    :type polar2: list
+    :return: producto entre los numeros complejos en representación polar
+    :rtype: list
+    """
+    complejo_polar = [polar1[0] * polar2[0], porlar1[1] + polar2[1]]
+
+    return complejo_polar
+
+
 def rep_cartesiana(par):
     """representa un numero complejo en representanción cartesiana
     
