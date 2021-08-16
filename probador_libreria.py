@@ -1,4 +1,4 @@
-""" Probador de libreria de operaciones con numeros complejos
+""" Probador de libreria de operaciones con numeros complejos imaginarios
 
 """
 
