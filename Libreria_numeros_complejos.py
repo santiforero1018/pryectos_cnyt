@@ -1,4 +1,4 @@
-"""Libreria de operaciones basicas con numeros complejos 
+"""Libreria de operaciones basicas con numeros complejos
 
 """
 
@@ -29,7 +29,7 @@ def division_polar(polar1, polar2):
         :return: division entre los numeros complejos en representación polar
         :rtype: list
         """
-    complejo_polar = [polar1[0] / polar2[0], porlar1[1] - polar2[1]]
+    complejo_polar = [polar1[0] / polar2[0], polar1[1] - polar2[1]]
 
     return complejo_polar
 
@@ -44,7 +44,7 @@ def multiplicacion_polar(polar1, polar2):
     :return: producto entre los numeros complejos en representación polar
     :rtype: list
     """
-    complejo_polar = [polar1[0] * polar2[0], porlar1[1] + polar2[1]]
+    complejo_polar = [polar1[0] * polar2[0], polar1[1] + polar2[1]]
 
     return complejo_polar
 
