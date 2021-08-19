@@ -5,7 +5,7 @@
 import Libreria_numeros_complejos as nc
 
 
-def conv_int(lista):
+def conv_float(lista):
     """ convierte los elementos de una lista de numeros en tipo entero
 
     :param lista: una lista de numeros en tipo str
@@ -14,7 +14,7 @@ def conv_int(lista):
     :rtype: list
     """
     for i in range(len(lista)):
-        lista[i] = int(lista[i])
+        lista[i] = float(lista[i])
 
     return lista
 
@@ -31,8 +31,8 @@ def main():
           "la parte real y b un numero real completando la parte imaginaria del numero complejo.\n")
     par_complejo1 = input("ingrese un numero complejo,de la forma a,b: ").split(",")
     par_complejo2 = input("ingrese un numero complejo, de la forma a,b: ").split(",")
-    par_complejo1 = conv_int(par_complejo1)
-    par_complejo2 = conv_int(par_complejo2)
+    par_complejo1 = conv_float(par_complejo1)
+    par_complejo2 = conv_float(par_complejo2)
     print(par_complejo1, par_complejo2)
     print()
     print("elija la operacion que desee realizar con numeros complejos\n")
